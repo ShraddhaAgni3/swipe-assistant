@@ -1,16 +1,42 @@
-# React + Vite
+# 🚀 Swipe AI Interview Assistant
+##### An AI-powered interview assistant built with React + Vite + Tailwind.
+###### It lets candidates take a timed technical interview in a chat interface, while recruiters can view results in a dashboard.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ✨ Features
+##### 🎤 Interviewee (Chat)
+##### Upload resume (PDF/DOCX).
 
-Currently, two official plugins are available:
+##### Extracts Name, Email, Phone. Missing fields are collected before starting.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###### Timed interview:
 
-## React Compiler
+###### 6 total questions → 2 Easy (20s) + 2 Medium (60s) + 2 Hard (120s).
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##### Auto-submit when time expires and moves to the next question.
 
-## Expanding the ESLint configuration
+###### Local question bank with scoring. If you provide an OpenAI API key, the app can generate fresh questions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧑‍💼 Interviewer (Dashboard)
+##### See all candidates with score & summary.
+
+##### Sort by score or time, and search by name/email/summary.
+
+##### View full chat history, answers, and per-question scores.
+
+## ⚡ Persistence
+##### All progress stored in localStorage (resumes, answers, timers).
+
+##### Refreshing or closing/re-opening restores the interview state.
+
+###### Shows a Welcome Back modal if an interview is mid-way.
+
+## 🛠️ Tech Stack
+#### React 18 + Vite (frontend)
+
+##### Tailwind CSS (UI styling)
+
+##### pdfjs-dist (PDF parsing)
+
+mammoth (DOCX parsing)
+
+localStorage (data persistence)
