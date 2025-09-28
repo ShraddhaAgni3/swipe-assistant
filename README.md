@@ -28,7 +28,7 @@
 
 ##### Refreshing or closing/re-opening restores the interview state.
 
-###### Shows a Welcome Back modal if an interview is mid-way.
+##### Shows a Welcome Back modal if an interview is mid-way.
 
 ## 🛠️ Tech Stack
 #### React 18 + Vite (frontend)
