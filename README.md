@@ -1,6 +1,6 @@
 # 🚀 Swipe AI Interview Assistant
 ##### An AI-powered interview assistant built with React + Vite + Tailwind.
-###### It lets candidates take a timed technical interview in a chat interface, while recruiters can view results in a dashboard.
+##### It lets candidates take a timed technical interview in a chat interface, while recruiters can view results in a dashboard.
 
 # ✨ Features
 ##### 🎤 Interviewee (Chat)
@@ -33,10 +33,10 @@
 ## 🛠️ Tech Stack
 #### React 18 + Vite (frontend)
 
-##### Tailwind CSS (UI styling)
+#### Tailwind CSS (UI styling)
 
-##### pdfjs-dist (PDF parsing)
+#### pdfjs-dist (PDF parsing)
 
-mammoth (DOCX parsing)
+#### mammoth (DOCX parsing)
 
-localStorage (data persistence)
+#### localStorage (data persistence)
